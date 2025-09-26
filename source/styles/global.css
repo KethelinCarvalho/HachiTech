@@ -1,0 +1,75 @@
+@import url('/source/styles/vendors/reset.css');
+@import url('/source/styles/vendors/fonts.css');
+
+:root {
+    /* CORES */
+    /* Cor azul */
+    --cor-azul-200: #0085DC;
+    
+    /* Cor Branco */
+    --cor-branco: #FAFAFA;
+
+    /* Cor Cinza */
+    --cor-cinza-100: #E9EAEC;
+
+    /* Cor Preto */
+    --cor-preto-500: #0B0C0F;
+
+    /* FONTES */
+    /* Fonte Rubik Glitch */
+    --fonte-rubik-glitch: "Rubik Glitch", system-ui;
+
+    /* Fonte Inter */
+    --fonte-inter: "Inter", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: var(--cor-preto-500);
+}
+
+.cabecalho-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.titulo-empresa {
+    margin: 0;
+    color: var(--cor-branco);
+    font-family: var(--fonte-rubik-glitch);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.menu-cabecalho ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-cabecalho a {
+    text-decoration: none;
+    color: var(--cor-cinza-100);
+    font-family: var(--fonte-inter);
+    transition: color 0.3s;
+}
+
+.menu-cabecalho a:hover {
+    color: var(--cor-azul-200);
+}
+
+.menu-cabecalho a.active {
+    color: var(--cor-azul-200);
+}
