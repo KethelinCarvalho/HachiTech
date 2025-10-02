@@ -1,0 +1,95 @@
+@import url('/source/styles/global.css');
+
+.rodape {
+    background-color: var(--cor-preto-500);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.rodape-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 40px;
+}
+
+.rodape-secoes {
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.logo-rodape {
+    height: 65px;
+    margin-bottom: 20px;
+    width: 65px;
+}
+
+.rodape-titulo {
+    color: var(--cor-branco-100);
+    font-family: var(--fonte-tomorrow);
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px; 
+}
+
+.rodape-secoes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape-secoes ul li {
+    font-size: 18px;
+    margin-bottom: 12px; 
+}
+
+.rodape-secoes ul li:last-child {
+    margin-bottom: 0; 
+}
+
+.rodape-secoes ul li a,
+.rodape-secoes ul li i {
+    color: var(--cor-branco-100);
+    font-family: var(--fonte-tomorrow);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.rodape-secoes ul li a:hover,
+.rodape-secoes ul li i:hover {
+    color: var(--cor-amarelo-800);
+}
+
+.rodape-secoes ul li a.active {
+    color: var(--cor-azul-200);
+}
+
+.rodape-icones i {
+    color: var(--cor-branco-100);
+    font-size: 24px;
+    margin: 0 10px; 
+    transition: color 0.3s;   
+}
+
+.rodape-icones i:hover {
+    color: var(--cor-amarelo-800);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 30px auto;
+  width: 90%;
+}
+
+.copyright {
+  font-size: 14px;
+  color: var(--cor-branco-100);
+  text-align: center;
+  margin-top: 15px;
+  font-family: var(--fonte-tomorrow);
+}

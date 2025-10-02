@@ -1,0 +1,55 @@
+@import url('/source/styles/global.css');
+
+.cabecalho {
+    align-items: center;
+    background-color: var(--cor-preto-500);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    position: sticky;
+    top: 0;
+}
+
+.cabecalho-container {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.logo-cabecalho {
+    display: block;
+    height: 65px;
+    width: 65px;
+}
+
+.nome-empresa {
+    color: var(--cor-branco-100);
+    font-family: var(--fonte-rubik-glitch);
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.menu-cabecalho ul {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-cabecalho a {
+    color: var(--cor-cinza-100);
+    font-family: var(--fonte-tomorrow);
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu-cabecalho a:hover {
+    color: var(--cor-amarelo-800);
+}
+
+.menu-cabecalho a.active {
+    color: var(--cor-azul-200);
+}

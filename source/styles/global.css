@@ -1,0 +1,38 @@
+<<<<<<< Updated upstream
+=======
+@import url('/source/styles/vendors/reset.css');
+@import url('/source/styles/vendors/fonts.css');
+@import url('/source/styles/vendors/bootstrap.css');
+
+
+:root {
+    /* CORES */
+
+    /* Paleta de azul */
+    --cor-azul-200: #0085DC;
+
+    /* Paleta de amarelo */
+    --cor-amarelo-800: #f8ef00;
+
+    /* Paleta de branco */
+    --cor-branco-100: #FAFAFA;
+
+    /* Paleta de cinza */
+    --cor-cinza-100: #E9EAEC;
+
+    /* Paleta de preto */
+    --cor-preto-500: #0B0C0F;
+
+    /* FONTES */
+
+    /* Fonte Rubik Glitch */
+    --fonte-rubik-glitch: "Rubik Glitch", system-ui;
+
+    /* Fonte Inter */
+    --fonte-inter: "Inter", sans-serif;
+
+    /* Fonte Tomorrow */
+    --fonte-tomorrow: "Tomorrow", sans-serif;
+
+}
+>>>>>>> Stashed changes
